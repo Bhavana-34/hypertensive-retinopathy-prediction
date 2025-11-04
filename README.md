@@ -52,7 +52,7 @@ _A Deep Learning Pipeline for Multi-Disease Diagnosis from Retinal Images_
 ---
 
 ## 📬 Contact  
-Bhavana Koli - [bhavanakoli2022@vitbhopal.ac.in](mailto:bhavanakoli2022@vitbhopal.ac.in)  
+Bhavana Koli - [bhavanakoli2022@vitbhopal.ac.in](mailto:bk609469@gmail.com)  
 
 ---
 

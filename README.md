@@ -1,64 +1,62 @@
-RetinoScan
-Deep Learning for Medical Diagnosis from Retinal Images
-June 2024 – May 2025
+# 🚀 RetinoScan  
+_A Deep Learning Pipeline for Multi-Disease Diagnosis from Retinal Images_  
+[![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python&logoColor=white)](https://www.python.org/) 
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.12-orange?logo=tensorflow&logoColor=white)](https://www.tensorflow.org/) 
+[![Streamlit](https://img.shields.io/badge/Streamlit-1.24-orange?logo=streamlit&logoColor=white)](https://streamlit.io/) 
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE) 
 
-Overview
-RetinoScan is a cutting-edge deep learning pipeline designed to diagnose multiple diseases—Diabetes, Hypertension, and Autism—using retinal images. It leverages convolutional neural networks (CNN), advanced image preprocessing, segmentation, and real-time visualization via a user-friendly Streamlit dashboard to support early detection and diagnosis.
+---
 
-Key Features
-Robust Disease Classification: Achieved 79% AUC score with a custom-trained CNN trained on over 1,400 labeled retinal images.
+## 🔍 Project Overview  
+**RetinoScan** utilizes state-of-the-art Convolutional Neural Networks (CNN) to accurately diagnose Diabetes, Hypertension, and Autism through retinal image analysis. The system integrates advanced image preprocessing, optic disc segmentation, and feature extraction with a real-time **Streamlit** dashboard for intuitive visualization and diagnosis tracking.
 
-Image Enhancement: Implemented multiple preprocessing techniques and data augmentation, boosting image clarity by 25%.
+---
 
-Segmentation & Feature Extraction: Performed optic disc segmentation on over 5,000 retinal images, significantly improving model accuracy.
+## ✨ Key Features  
+- 🎯 Multi-label disease classification achieving **79% AUC** on validation data  
+- 🖼️ 4+ image preprocessing and 2x data augmentation techniques boosting clarity by 25%  
+- 🧠 Optic disc segmentation on 5,000+ retinal images improving diagnostic confidence  
+- 📊 Interactive Streamlit dashboard showing real-time severity scoring and diagnosis bottlenecks  
+- ⚙️ End-to-end pipeline from image preprocessing to model inference  
 
-Interactive Dashboard: An intuitive Streamlit app visualizes real-time disease severity scores, helping clinicians monitor diagnosis bottlenecks efficiently.
+---
 
-Technologies & Libraries
-Python for core development
+## 🛠️ Technologies  
+| Technology  | Purpose                        |
+| ----------- | ------------------------------|
+| Python      | Core programming               |
+| TensorFlow  | CNN Architecture & Training   |
+| OpenCV      | Image Processing & Segmentation |
+| Streamlit   | Interactive Dashboard          |
 
-TensorFlow and Keras for deep learning models
+---
 
-OpenCV for image processing and segmentation
+- Access the dashboard at `http://localhost:8501` and explore real-time diagnostics.
 
-Streamlit for creating interactive dashboards
+---
 
-Getting Started
-Clone the Repository
-bash
-git clone https://github.com/Bhavana-34/microburnoutthis.git
-Install Dependencies
-Create and activate a virtual environment, then install required packages:
+## 🎯 Results  
+| Metric      | Score   |
+| ----------- |---------|
+| AUC         | 79%     |
+| Precision   | 79%     |
+| Dataset Size| 1,400+ images (training), 5,000+ images (segmentation) |
 
-bash
-pip install -r requirements.txt
-Prepare Data & Train Model
-Run preprocessing scripts on your retinal dataset
+---
 
-Use the training notebooks provided for CNN architecture tuning
+## 📈 Future Work  
+- Expand model to detect additional diseases  
+- Deploy cloud/mobile applications for easier access  
+- Integrate automated data input and reporting tools  
 
-Track the training progress and validation performance
+---
 
-Launch the Dashboard
-bash
-streamlit run app.py
-Open your browser, navigate to the local URL, and start diagnosing!
+## 📬 Contact  
+Bhavana Koli - [bhavanakoli2022@vitbhopal.ac.in](mailto:bhavanakoli2022@vitbhopal.ac.in)  
 
-Future Work & Enhancements
-Extending disease detection capabilities to additional conditions
+---
 
-Improving model accuracy with larger datasets and advanced architectures
+Thank you for exploring RetinoScan!  
+---
 
-Deploying the app for mobile or cloud-based access
-
-Integrating more seamless data input options
-
-Acknowledgments
-Special thanks to all dataset providers and contributors. Your support makes this project possible.
-
-License
-This project is licensed under the MIT License — see the LICENSE file for details.
-
-Contact
-For questions or collaborations, please reach out to Bhavana Koli at bhavanakoli2022@vitbhopal.ac.in.
-
+*Made with ❤️ for healthcare AI innovation*  
